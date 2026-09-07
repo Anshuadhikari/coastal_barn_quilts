@@ -1,6 +1,6 @@
-# this location (Sandbox)
+# Arts Council of Calvert County
 
-Sandbox recreation of the Arts Council of Calvert County site, not affiliated with the real organization.
+Website for the Arts Council of Calvert County.
 
 ## Structure
 
