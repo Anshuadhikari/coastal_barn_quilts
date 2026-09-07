@@ -81,17 +81,9 @@
     <div class="section-head">
       <div class="kicker">Find Every Square</div>
       <h2>Trail Map</h2>
-      <p>Every stop on the trail is plotted on our Google Map. Click anywhere on the map below to open the full interactive version, with directions to each quilt square.</p>
+      <p>Explore the trail below — click any pin to see the quilt name, address, and story behind that stop.</p>
     </div>
-    <a class="map-embed" href="https://www.google.com/maps/d/viewer?mid=1oaqq44LH4Z7-UVxvxRLMLthTKCRpyLk&usp=sharing" target="_blank" rel="noopener" aria-label="Open the Barn Quilt Trail map in Google Maps">
-      <iframe
-        src="https://www.google.com/maps/d/embed?mid=1oaqq44LH4Z7-UVxvxRLMLthTKCRpyLk"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        title="Calvert County Barn Quilt Trail map preview">
-      </iframe>
-      <span class="map-embed-badge">Open Full Trail Map in Google Maps ↗</span>
-    </a>
+    <div id="trail-map" role="img" aria-label="Interactive map of the Calvert County Barn Quilt Trail"></div>
   </div>
 </section>
 
@@ -178,6 +170,9 @@
     </div>
   </div>
 </footer>
+
+<script src="js/barn-quilt-map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY_HERE&callback=initBarnQuiltMap" async defer></script>
 
 </body>
 </html>

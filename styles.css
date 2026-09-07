@@ -336,6 +336,50 @@ section.alt { background: var(--white); }
   .map-embed-badge { left: 16px; right: 16px; text-align: center; }
 }
 
+/* ---------- Interactive Trail Map ---------- */
+#trail-map {
+  height: 460px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(27,58,92,0.1);
+  background: var(--gold-light);
+}
+@media (max-width: 600px) {
+  #trail-map { height: 340px; }
+}
+
+.quilt-info {
+  font-family: "Georgia", "Iowan Old Style", serif;
+  color: var(--ink);
+  max-width: 240px;
+  padding: 4px 2px;
+}
+.quilt-info h3 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: var(--navy);
+  font-size: 1rem;
+  margin: 0 0 4px;
+}
+.quilt-info-address {
+  font-family: "Trebuchet MS", sans-serif;
+  color: var(--gold);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 8px;
+}
+.quilt-info-desc {
+  font-size: 0.88rem;
+  margin: 0;
+}
+.quilt-info-photo {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: block;
+}
+
 /* ---------- Partners ---------- */
 .partner-list {
   display: flex;

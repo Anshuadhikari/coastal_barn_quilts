@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Sunflower Block",
+    "lat": 38.5423,
+    "lng": -76.5975,
+    "address": "Prince Frederick, MD (sample location)",
+    "description": "A golden sunflower pattern honoring the county's farming roots. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Barn Star",
+    "lat": 38.5057,
+    "lng": -76.5252,
+    "address": "Port Republic, MD (sample location)",
+    "description": "A classic eight-point star, one of the oldest quilt patterns on the trail. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Chesapeake Wave",
+    "lat": 38.3193,
+    "lng": -76.4527,
+    "address": "Solomons, MD (sample location)",
+    "description": "A blue-and-white pattern inspired by the Chesapeake Bay just down the road. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Tobacco Barn Diamond",
+    "lat": 38.3701,
+    "lng": -76.4527,
+    "address": "Lusby, MD (sample location)",
+    "description": "A nod to the county's historic tobacco barns, painted directly onto a working farm building. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Oyster Shell Fan",
+    "lat": 38.4515,
+    "lng": -76.5372,
+    "address": "St. Leonard, MD (sample location)",
+    "description": "A fan-shaped block celebrating the county's oystering heritage. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Huntingtown Homestead",
+    "lat": 38.6743,
+    "lng": -76.6144,
+    "address": "Huntingtown, MD (sample location)",
+    "description": "A log-cabin quilt pattern marking one of the county's oldest family farms. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Owings Orchard",
+    "lat": 38.7154,
+    "lng": -76.6316,
+    "address": "Owings, MD (sample location)",
+    "description": "An apple-blossom-inspired square mounted on a roadside fruit stand. Placeholder data for demo purposes.",
+    "photo": null
+  },
+  {
+    "name": "Dunkirk Crossroads",
+    "lat": 38.7659,
+    "lng": -76.6497,
+    "address": "Dunkirk, MD (sample location)",
+    "description": "A pinwheel pattern marking the northern gateway to the trail. Placeholder data for demo purposes.",
+    "photo": null
+  }
+]
