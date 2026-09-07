@@ -53,7 +53,7 @@
     "lng": -75.9234,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A red, white, and blue compass star painted on a backyard shed, shared with resident goats and chickens.",
-    "photo": "../assets/icons/474626402_122204799758225491_7270690687173770884_n.jpg"
+    "photo": "../assets/images/474626402_122204799758225491_7270690687173770884_n.jpg"
   },
   {
     "name": "Garden Gate Star",
@@ -61,7 +61,7 @@
     "lng": -76.0012,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A patriotic star block tucked beside a lush garden along a gray shingled home.",
-    "photo": "../assets/icons/474676983_122204841620225491_731014683278164063_n.jpg"
+    "photo": "../assets/images/474676983_122204841620225491_731014683278164063_n.jpg"
   },
   {
     "name": "Hilltop Cabin Star",
@@ -69,7 +69,7 @@
     "lng": -75.9678,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A teal and gold star block mounted on a rustic log cabin overlooking open pasture.",
-    "photo": "../assets/icons/474699782_122205036584225491_799595856590314516_n.jpg"
+    "photo": "../assets/images/474699782_122205036584225491_799595856590314516_n.jpg"
   },
   {
     "name": "Fireside Diamond",
@@ -77,7 +77,7 @@
     "lng": -76.0341,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A pink and charcoal star diamond displayed indoors above a fireplace mantel.",
-    "photo": "../assets/icons/474734695_122204836952225491_7839117860054151678_n.jpg"
+    "photo": "../assets/images/474734695_122204836952225491_7839117860054151678_n.jpg"
   },
   {
     "name": "Rural Route 1086",
@@ -85,7 +85,7 @@
     "lng": -75.9523,
     "address": "1086 Sample Rd, Currituck, NC (sample location — fake address, TBD)",
     "description": "Matching diamond quilt blocks flank the front window of this blue-gray farmhouse.",
-    "photo": "../assets/icons/474743035_122205036428225491_913474891930874513_n.jpg"
+    "photo": "../assets/images/474743035_122205036428225491_913474891930874513_n.jpg"
   },
   {
     "name": "Green Porch Compass",
@@ -93,7 +93,7 @@
     "lng": -76.0456,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A red, white, and blue compass star painted against green wood siding.",
-    "photo": "../assets/icons/474760996_122205040820225491_6998875998651765089_n.jpg"
+    "photo": "../assets/images/474760996_122205040820225491_6998875998651765089_n.jpg"
   },
   {
     "name": "Harvest Star",
@@ -101,7 +101,7 @@
     "lng": -75.9856,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A yellow, orange, and maroon star block hung beside the front door of a coastal home.",
-    "photo": "../assets/icons/474770174_122205041030225491_6235002826451798916_n.jpg"
+    "photo": "../assets/images/474770174_122205041030225491_6235002826451798916_n.jpg"
   },
   {
     "name": "Sunset Petal Star",
@@ -109,7 +109,7 @@
     "lng": -76.0089,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A pink, teal, and yellow star block mounted on weathered barn wood siding.",
-    "photo": "../assets/icons/474788412_122204831774225491_4109873743746422116_n.jpg"
+    "photo": "../assets/images/474788412_122204831774225491_4109873743746422116_n.jpg"
   },
   {
     "name": "Barn Quilt Trailhead",
@@ -117,7 +117,7 @@
     "lng": -75.9345,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "The official trailhead building, marked with a blue and white compass star sign.",
-    "photo": "../assets/icons/475026636_122205035930225491_7722360472334849687_n.jpg"
+    "photo": "../assets/images/475026636_122205035930225491_7722360472334849687_n.jpg"
   },
   {
     "name": "Mailbox Star",
@@ -125,7 +125,7 @@
     "lng": -76.0623,
     "address": "147 Sample Ln, Currituck, NC (sample location — fake address, TBD)",
     "description": "A blue, gray, and white star block hanging from a roadside mailbox post.",
-    "photo": "../assets/icons/475737150_122206356794225491_962483656029939903_n.jpg"
+    "photo": "../assets/images/475737150_122206356794225491_962483656029939903_n.jpg"
   },
   {
     "name": "Triple Star Gallery",
@@ -133,7 +133,7 @@
     "lng": -75.9967,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A trio of quilt blocks — a bold blue star flanked by two smaller diamonds — displayed on an interior wall.",
-    "photo": "../assets/icons/475987040_122207071436225491_6159499167719002839_n.jpg"
+    "photo": "../assets/images/475987040_122207071436225491_6159499167719002839_n.jpg"
   },
   {
     "name": "Songbird Block",
@@ -141,7 +141,7 @@
     "lng": -75.9178,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A small teal and gray songbird pattern mounted on a bright yellow beach house.",
-    "photo": "../assets/icons/492337210_122227328462225491_1961900076059592536_n.jpg"
+    "photo": "../assets/images/492337210_122227328462225491_1961900076059592536_n.jpg"
   },
   {
     "name": "Campground Compass",
@@ -149,7 +149,7 @@
     "lng": -76.0234,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A teal and white compass star on a garden stake beside an RV campsite.",
-    "photo": "../assets/icons/497617999_122231086244225491_4362846820419188518_n.jpg"
+    "photo": "../assets/images/497617999_122231086244225491_4362846820419188518_n.jpg"
   },
   {
     "name": "Farmhouse Star Cluster",
@@ -157,7 +157,7 @@
     "lng": -75.9589,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A cluster of red, white, and blue stars mounted on a classic white farmhouse.",
-    "photo": "../assets/icons/497709912_122231075180225491_2734643497906658463_n.jpg"
+    "photo": "../assets/images/497709912_122231075180225491_2734643497906658463_n.jpg"
   },
   {
     "name": "Birdhouse Lane Stars",
@@ -165,7 +165,7 @@
     "lng": -76.0178,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A red, white, and blue four-star block on a white house, next to a tall birdhouse pole.",
-    "photo": "../assets/icons/497864499_122231075216225491_6041254874199223132_n.jpg"
+    "photo": "../assets/images/497864499_122231075216225491_6041254874199223132_n.jpg"
   },
   {
     "name": "Fence Line Pinwheel",
@@ -173,7 +173,7 @@
     "lng": -75.9412,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A red, white, and blue pinwheel star mounted on a weathered wood fence.",
-    "photo": "../assets/icons/627253512_122278383722225491_3386516914105676212_n.jpg"
+    "photo": "../assets/images/627253512_122278383722225491_3386516914105676212_n.jpg"
   },
   {
     "name": "Turquoise Bay Spiral",
@@ -181,6 +181,6 @@
     "lng": -76.0512,
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A blue and teal spiral diamond block displayed on a bright turquoise building.",
-    "photo": "../assets/icons/724340868_122298424382225491_183686035371428151_n.jpg"
+    "photo": "../assets/images/724340868_122298424382225491_183686035371428151_n.jpg"
   }
 ]
