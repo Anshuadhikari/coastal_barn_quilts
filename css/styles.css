@@ -276,6 +276,25 @@ section.alt { background: var(--white); }
   display: block;
 }
 
+/* ---------- About photo (family in action) ---------- */
+.about-photo {
+  margin: 40px auto 0;
+  max-width: 640px;
+  text-align: center;
+}
+.about-photo img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: block;
+}
+.about-photo figcaption {
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 0.85rem;
+  color: var(--navy);
+}
+
 /* ---------- Photo strip (installations) ---------- */
 .photo-strip {
   display: grid;
