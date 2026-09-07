@@ -1,6 +1,6 @@
-# Arts Council of Calvert County
+# Coastal Barn Quilts
 
-Website for the Arts Council of Calvert County.
+Website for Coastal Barn Quilts, a family-operated, home-based hand-painted barn quilt business in Currituck, NC.
 
 ## Structure
 

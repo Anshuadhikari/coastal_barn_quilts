@@ -1,66 +1,50 @@
 [
   {
-    "name": "Sunflower Block",
-    "lat": 38.5423,
-    "lng": -76.5975,
-    "address": "Prince Frederick, MD (sample location)",
-    "description": "A golden sunflower pattern honoring the county's farming roots. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Waynesville Police Department",
+    "lat": 35.4887,
+    "lng": -82.9885,
+    "address": "Waynesville, NC (sample pin — exact location approximate)",
+    "description": "A public installation on the wall of the Waynesville Police Department.",
+    "photo": "../assets/images/481001159_122211260636225491_6834488302638869126_n.jpg"
   },
   {
-    "name": "Barn Star",
-    "lat": 38.5057,
-    "lng": -76.5252,
-    "address": "Port Republic, MD (sample location)",
-    "description": "A classic eight-point star, one of the oldest quilt patterns on the trail. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Backyard Nature Diamond",
+    "lat": 36.4611,
+    "lng": -75.9821,
+    "address": "Currituck, NC (sample location)",
+    "description": "A diamond block featuring a cow, marsh reeds, a bluebird, and a monarch butterfly.",
+    "photo": "../assets/images/530795545_122250019094225491_9047886345712242179_n.jpg"
   },
   {
-    "name": "Chesapeake Wave",
-    "lat": 38.3193,
-    "lng": -76.4527,
-    "address": "Solomons, MD (sample location)",
-    "description": "A blue-and-white pattern inspired by the Chesapeake Bay just down the road. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Coastal Diamond",
+    "lat": 36.4302,
+    "lng": -76.0523,
+    "address": "Currituck, NC (sample location)",
+    "description": "A diamond-in-a-square block installed on a coastal home.",
+    "photo": "../assets/images/573549337_122263209008225491_8401580440284977162_n.jpg"
   },
   {
-    "name": "Tobacco Barn Diamond",
-    "lat": 38.3701,
-    "lng": -76.4527,
-    "address": "Lusby, MD (sample location)",
-    "description": "A nod to the county's historic tobacco barns, painted directly onto a working farm building. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Red Barn Star",
+    "lat": 36.4894,
+    "lng": -76.0187,
+    "address": "Currituck, NC (sample location)",
+    "description": "A classic star pattern painted for a red barn.",
+    "photo": "../assets/images/660479908_122287011278225491_8597335035796699145_n.jpg"
   },
   {
-    "name": "Oyster Shell Fan",
-    "lat": 38.4515,
-    "lng": -76.5372,
-    "address": "St. Leonard, MD (sample location)",
-    "description": "A fan-shaped block celebrating the county's oystering heritage. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Patriot Star",
+    "lat": 36.4058,
+    "lng": -75.9412,
+    "address": "Currituck, NC (sample location)",
+    "description": "A red, white, and blue star block mounted on a historic log cabin.",
+    "photo": "../assets/images/699121615_122294060348225491_2628515227605538361_n.jpg"
   },
   {
-    "name": "Huntingtown Homestead",
-    "lat": 38.6743,
-    "lng": -76.6144,
-    "address": "Huntingtown, MD (sample location)",
-    "description": "A log-cabin quilt pattern marking one of the county's oldest family farms. Placeholder data for demo purposes.",
-    "photo": null
-  },
-  {
-    "name": "Owings Orchard",
-    "lat": 38.7154,
-    "lng": -76.6316,
-    "address": "Owings, MD (sample location)",
-    "description": "An apple-blossom-inspired square mounted on a roadside fruit stand. Placeholder data for demo purposes.",
-    "photo": null
-  },
-  {
-    "name": "Dunkirk Crossroads",
-    "lat": 38.7659,
-    "lng": -76.6497,
-    "address": "Dunkirk, MD (sample location)",
-    "description": "A pinwheel pattern marking the northern gateway to the trail. Placeholder data for demo purposes.",
-    "photo": null
+    "name": "Farmhouse Favorites",
+    "lat": 36.5123,
+    "lng": -76.0765,
+    "address": "Currituck, NC (sample location)",
+    "description": "A horse portrait and an ATV block, painted as a matching pair for a farmhouse fence.",
+    "photo": "../assets/images/625463427_122278400000225491_3582782521754034518_n.jpg"
   }
 ]

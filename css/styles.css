@@ -409,6 +409,21 @@ section.alt { background: var(--white); }
   text-align: center;
 }
 .cta-band h2 { color: var(--navy-dark); }
+.cta-band-photo {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.cta-band-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(18,41,66,0.85), rgba(79,143,192,0.55));
+}
+.cta-band-photo .container { position: relative; z-index: 1; }
+.cta-band.cta-band-photo h2,
+.cta-band.cta-band-photo p { color: var(--white); }
 .newsletter-form {
   margin-top: 22px;
   display: flex;

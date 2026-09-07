@@ -26,7 +26,7 @@ async function initBarnQuiltMap() {
   }
 
   const map = new google.maps.Map(mapEl, {
-    center: { lat: 38.55, lng: -76.55 },
+    center: { lat: 36.45, lng: -75.95 },
     zoom: 11,
     styles: [
       { featureType: "poi.business", stylers: [{ visibility: "off" }] },
