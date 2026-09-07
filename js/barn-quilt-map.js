@@ -18,7 +18,7 @@ async function initBarnQuiltMap() {
 
   let quilts = [];
   try {
-    const res = await fetch("quilts.json");
+    const res = await fetch("../data/quilts.json");
     quilts = await res.json();
   } catch (err) {
     console.error("Could not load barn quilt trail data:", err);
@@ -55,7 +55,7 @@ window.initBarnQuiltMap = initBarnQuiltMap;
 
 (function loadGoogleMaps() {
   if (!window.GOOGLE_MAPS_API_KEY) {
-    console.error("Missing GOOGLE_MAPS_API_KEY — create config.js from config.example.js");
+    console.error("Missing GOOGLE_MAPS_API_KEY — create config/config.js from config/config.example.js");
     return;
   }
   const script = document.createElement("script");
