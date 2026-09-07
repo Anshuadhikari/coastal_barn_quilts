@@ -182,5 +182,13 @@
     "address": "Currituck, NC (sample location — fake address, TBD)",
     "description": "A blue and teal spiral diamond block displayed on a bright turquoise building.",
     "photo": "../assets/images/724340868_122298424382225491_183686035371428151_n.jpg"
+  },
+  {
+    "name": "Johnson Star Diamond",
+    "lat": 36.4423,
+    "lng": -75.9678,
+    "address": "Currituck, NC (sample location — fake address, TBD)",
+    "description": "A red, yellow, and pink star diamond block mounted on a weathered gray barn, above a sign for the Johnson family.",
+    "photo": "../assets/images/774720141_122308137284225491_2179979310883425280_n.jpg"
   }
 ]
