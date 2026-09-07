@@ -52,3 +52,15 @@ async function initBarnQuiltMap() {
 }
 
 window.initBarnQuiltMap = initBarnQuiltMap;
+
+(function loadGoogleMaps() {
+  if (!window.GOOGLE_MAPS_API_KEY) {
+    console.error("Missing GOOGLE_MAPS_API_KEY — create config.js from config.example.js");
+    return;
+  }
+  const script = document.createElement("script");
+  script.src = `https://maps.googleapis.com/maps/api/js?key=${window.GOOGLE_MAPS_API_KEY}&callback=initBarnQuiltMap`;
+  script.async = true;
+  script.defer = true;
+  document.head.appendChild(script);
+})();
