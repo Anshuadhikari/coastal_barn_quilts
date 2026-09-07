@@ -1,9 +1,9 @@
 :root {
-  --navy: #1b3a5c;
-  --navy-dark: #12283f;
-  --gold: #c9a24b;
-  --gold-light: #e8d9ae;
-  --cream: #faf7ef;
+  --navy: #1d3a5a;
+  --navy-dark: #122942;
+  --accent: #4f8fc0;
+  --accent-light: #bcdcec;
+  --cream: #f4f8fa;
   --ink: #26313d;
   --white: #ffffff;
   --radius: 10px;
@@ -39,7 +39,7 @@ a { color: inherit; }
 /* ---------- Header ---------- */
 .top-bar {
   background: var(--navy-dark);
-  color: var(--gold-light);
+  color: var(--accent-light);
   font-size: 0.8rem;
 }
 .top-bar .container {
@@ -50,7 +50,7 @@ a { color: inherit; }
   flex-wrap: wrap;
   gap: 8px;
 }
-.top-bar a { text-decoration: none; color: var(--gold-light); }
+.top-bar a { text-decoration: none; color: var(--accent-light); }
 .top-bar a:hover { text-decoration: underline; }
 
 header.site-header {
@@ -77,7 +77,7 @@ header.site-header {
   width: 46px;
   height: 46px;
   border-radius: 8px;
-  background: conic-gradient(from 45deg, var(--navy), var(--gold), var(--navy));
+  background: conic-gradient(from 45deg, var(--navy), var(--accent), var(--navy));
   flex-shrink: 0;
 }
 .brand-text .name {
@@ -89,7 +89,7 @@ header.site-header {
 }
 .brand-text .tag {
   font-size: 0.72rem;
-  color: var(--gold);
+  color: var(--accent);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -113,8 +113,8 @@ nav.main-nav a {
 }
 nav.main-nav a:hover,
 nav.main-nav a.active {
-  color: var(--gold);
-  border-color: var(--gold);
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 .nav-toggle { display: none; }
@@ -135,14 +135,14 @@ nav.main-nav a.active {
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(201,162,75,0.35), transparent 70%);
+  background: radial-gradient(circle, rgba(79,143,192,0.35), transparent 70%);
 }
 .hero .container { position: relative; z-index: 1; max-width: 760px; }
 .hero .eyebrow {
   font-family: "Trebuchet MS", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--gold-light);
+  color: var(--accent-light);
   font-size: 0.8rem;
   margin-bottom: 14px;
 }
@@ -172,16 +172,16 @@ nav.main-nav a.active {
 }
 .btn:hover { transform: translateY(-2px); }
 .btn-gold {
-  background: var(--gold);
+  background: var(--accent);
   color: var(--navy-dark);
 }
-.btn-gold:hover { box-shadow: 0 6px 18px rgba(201,162,75,0.4); }
+.btn-gold:hover { box-shadow: 0 6px 18px rgba(79,143,192,0.4); }
 .btn-outline {
   background: transparent;
   color: var(--white);
   border: 2px solid rgba(255,255,255,0.6);
 }
-.btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+.btn-outline:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ---------- Section shell ---------- */
 section { padding: 70px 0; }
@@ -190,7 +190,7 @@ section.alt { background: var(--white); }
 .section-head .kicker {
   font-family: "Trebuchet MS", sans-serif;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--accent);
   letter-spacing: 0.1em;
   font-size: 0.78rem;
   font-weight: 700;
@@ -208,7 +208,7 @@ section.alt { background: var(--white); }
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 26px;
-  border-top: 4px solid var(--gold);
+  border-top: 4px solid var(--accent);
 }
 .card h3 { font-size: 1.1rem; }
 .card p { font-size: 0.94rem; color: #4a5763; }
@@ -216,7 +216,7 @@ section.alt { background: var(--white); }
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--gold-light);
+  background: var(--accent-light);
   color: var(--navy);
   display: flex;
   align-items: center;
@@ -236,7 +236,7 @@ section.alt { background: var(--white); }
 .split .media {
   border-radius: var(--radius);
   min-height: 260px;
-  background: repeating-linear-gradient(45deg, var(--gold-light), var(--gold-light) 18px, var(--cream) 18px, var(--cream) 36px);
+  background: repeating-linear-gradient(45deg, var(--accent-light), var(--accent-light) 18px, var(--cream) 18px, var(--cream) 36px);
   box-shadow: var(--shadow);
   position: relative;
 }
@@ -266,12 +266,12 @@ section.alt { background: var(--white); }
   border-radius: 6px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }
-.quilt-swatch:nth-child(6n+1) { background: conic-gradient(var(--navy) 25%, var(--gold) 0 50%, var(--navy) 0 75%, var(--gold) 0); }
-.quilt-swatch:nth-child(6n+2) { background: linear-gradient(45deg, var(--gold) 25%, var(--navy) 25% 50%, var(--gold) 50% 75%, var(--navy) 75%); }
-.quilt-swatch:nth-child(6n+3) { background: radial-gradient(circle at center, var(--gold) 0 30%, var(--navy) 30% 60%, var(--gold) 60%); }
-.quilt-swatch:nth-child(6n+4) { background: repeating-conic-gradient(var(--navy) 0deg 45deg, var(--gold) 45deg 90deg); }
-.quilt-swatch:nth-child(6n+5) { background: linear-gradient(135deg, var(--navy) 0 50%, var(--gold) 50%); }
-.quilt-swatch:nth-child(6n+6) { background: repeating-linear-gradient(90deg, var(--navy) 0 12px, var(--gold) 12px 24px); }
+.quilt-swatch:nth-child(6n+1) { background: conic-gradient(var(--navy) 25%, var(--accent) 0 50%, var(--navy) 0 75%, var(--accent) 0); }
+.quilt-swatch:nth-child(6n+2) { background: linear-gradient(45deg, var(--accent) 25%, var(--navy) 25% 50%, var(--accent) 50% 75%, var(--navy) 75%); }
+.quilt-swatch:nth-child(6n+3) { background: radial-gradient(circle at center, var(--accent) 0 30%, var(--navy) 30% 60%, var(--accent) 60%); }
+.quilt-swatch:nth-child(6n+4) { background: repeating-conic-gradient(var(--navy) 0deg 45deg, var(--accent) 45deg 90deg); }
+.quilt-swatch:nth-child(6n+5) { background: linear-gradient(135deg, var(--navy) 0 50%, var(--accent) 50%); }
+.quilt-swatch:nth-child(6n+6) { background: repeating-linear-gradient(90deg, var(--navy) 0 12px, var(--accent) 12px 24px); }
 @media (max-width: 700px) { .quilt-strip { grid-template-columns: repeat(3, 1fr); } }
 
 .stat-row {
@@ -286,7 +286,7 @@ section.alt { background: var(--white); }
   font-family: "Trebuchet MS", sans-serif;
   font-size: 2.2rem;
   font-weight: bold;
-  color: var(--gold);
+  color: var(--accent);
 }
 .stat-row .stat .label {
   font-size: 0.85rem;
@@ -327,7 +327,7 @@ section.alt { background: var(--white); }
   transition: background 0.15s ease, transform 0.15s ease;
 }
 .map-embed:hover .map-embed-badge {
-  background: var(--gold);
+  background: var(--accent);
   color: var(--navy-dark);
   transform: translateY(-2px);
 }
@@ -343,7 +343,7 @@ section.alt { background: var(--white); }
   overflow: hidden;
   box-shadow: var(--shadow);
   border: 1px solid rgba(27,58,92,0.1);
-  background: var(--gold-light);
+  background: var(--accent-light);
 }
 @media (max-width: 600px) {
   #trail-map { height: 340px; }
@@ -363,7 +363,7 @@ section.alt { background: var(--white); }
 }
 .quilt-info-address {
   font-family: "Trebuchet MS", sans-serif;
-  color: var(--gold);
+  color: var(--accent);
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -389,7 +389,7 @@ section.alt { background: var(--white); }
 }
 .partner-pill {
   background: var(--white);
-  border: 1px solid var(--gold-light);
+  border: 1px solid var(--accent-light);
   padding: 8px 18px;
   border-radius: 30px;
   font-size: 0.85rem;
@@ -399,7 +399,7 @@ section.alt { background: var(--white); }
 
 /* ---------- Newsletter / CTA ---------- */
 .cta-band {
-  background: var(--gold);
+  background: var(--accent);
   color: var(--navy-dark);
   text-align: center;
 }
@@ -435,11 +435,11 @@ footer {
   gap: 30px;
   margin-bottom: 40px;
 }
-footer h4 { color: var(--gold-light); font-size: 0.95rem; }
+footer h4 { color: var(--accent-light); font-size: 0.95rem; }
 footer ul { list-style: none; padding: 0; margin: 0; }
 footer li { margin-bottom: 8px; }
 footer a { text-decoration: none; color: inherit; }
-footer a:hover { color: var(--gold-light); }
+footer a:hover { color: var(--accent-light); }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.15);
   padding-top: 20px;
